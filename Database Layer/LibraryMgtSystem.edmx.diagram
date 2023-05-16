@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="484ef3fb45d24e98871b570597c8967b" Name="Diagram1">
+        <EntityTypeShape EntityType="OnlineLabModel.BookfineTable" Width="1.5" PointX="7.5" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineLabModel.BookReturnTable" Width="1.5" PointX="10.5" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineLabModel.BookTable" Width="1.5" PointX="5.25" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineLabModel.DepartmentTable" Width="1.5" PointX="5.25" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineLabModel.DesignationTable" Width="1.5" PointX="5.25" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineLabModel.EmployeeTable" Width="1.5" PointX="7.5" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineLabModel.IssueBookTable" Width="1.5" PointX="9.75" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineLabModel.PurchaseDetailTable" Width="1.5" PointX="7.5" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineLabModel.PurchaseTable" Width="1.5" PointX="7.5" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineLabModel.SupplierTable" Width="1.5" PointX="5.25" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineLabModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineLabModel.UserTable" Width="1.5" PointX="3" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineLabModel.UserTypeTable" Width="1.5" PointX="0.75" PointY="13.25" IsExpanded="true" />
+        <AssociationConnector Association="OnlineLabModel.FK_BookfineTable_BookTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineLabModel.FK_BookfineTable_UserTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineLabModel.FK_BookReturnTable_BookTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineLabModel.FK_BookReturnTable_EmployeeTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineLabModel.FK_BookTable_UserTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineLabModel.FK_PurchaseDetailTable_BookTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineLabModel.FK_DepartmentTable_UserTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineLabModel.FK_EmployeeTable_DepartmentTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineLabModel.FK_DesignationTable_UserTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineLabModel.FK_EmployeeTable_DesignationTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineLabModel.FK_EmployeeTable_DesignationTable1" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineLabModel.FK_IssueBookTable_EmployeeTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineLabModel.FK_UserTable_EmployeeTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineLabModel.FK_IssueBookTable_UserTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineLabModel.FK_PurchaseDetailTable_PurchaseTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineLabModel.FK_PurchaseTable_SupplierTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineLabModel.FK_PurchaseTable_UserTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineLabModel.FK_SupplierTable_UserTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineLabModel.FK_UserTable_UserTypeTable" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
